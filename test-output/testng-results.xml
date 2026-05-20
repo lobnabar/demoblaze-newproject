@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٤ EEST" name="demoplaze Regression Suite" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٥ EEST" duration-ms="40852">
+    <groups>
+    </groups>
+    <test started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٤ EEST" name="Regression Test" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٥ EEST" duration-ms="40852">
+      <class name="tests.SignUpTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.SignUpTest@79079097]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٤ EEST" name="startDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٧ EEST" duration-ms="3249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanSignUpSuccessfully()[pri:0, instance:tests.SignUpTest@79079097]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٧ EEST" name="userCanSignUpSuccessfully" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٩ EEST" duration-ms="2513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSignUpSuccessfully -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SignUpTest@79079097]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٩ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٩ EEST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanSignUpSuccessfully status=SUCCESS method=SignUpTest.userCanSignUpSuccessfully()[pri:0, instance:tests.SignUpTest@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.SignUpTest@79079097]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٨:٥٩ EEST" name="stopDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٠ EEST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.SignUpTest -->
+      <class name="tests.ContactTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.ContactTest@367ffa75]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٧ EEST" name="startDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٠ EEST" duration-ms="2791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanContactSuccessively()[pri:0, instance:tests.ContactTest@367ffa75]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٠ EEST" name="userCanContactSuccessively" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣١ EEST" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanContactSuccessively -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ContactTest@367ffa75]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣١ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣١ EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanContactSuccessively status=SUCCESS method=ContactTest.userCanContactSuccessively()[pri:0, instance:tests.ContactTest@367ffa75] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.ContactTest@367ffa75]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣١ EEST" name="stopDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٢ EEST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.ContactTest -->
+      <class name="tests.AddProductToTheCartTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.AddProductToTheCartTest@40005471]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٣ EEST" name="startDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٥ EEST" duration-ms="2437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanAddProductToTheCart()[pri:0, instance:tests.AddProductToTheCartTest@40005471]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٥ EEST" name="userCanAddProductToTheCart" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٩ EEST" duration-ms="4380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddProductToTheCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AddProductToTheCartTest@40005471]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٩ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٩ EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanAddProductToTheCart status=SUCCESS method=AddProductToTheCartTest.userCanAddProductToTheCart()[pri:0, instance:tests.AddProductToTheCartTest@40005471] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.AddProductToTheCartTest@40005471]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٩ EEST" name="stopDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٠ EEST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.AddProductToTheCartTest -->
+      <class name="tests.SearchByCategoriesTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" name="startDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٧ EEST" duration-ms="1897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="testLaptops()[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٧ EEST" name="testLaptops" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٩ EEST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaptops -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٩ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٩ EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLaptops status=SUCCESS method=SearchByCategoriesTest.testLaptops()[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testMonitors()[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٩ EEST" name="testMonitors" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١١ EEST" duration-ms="1677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMonitors -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١١ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١١ EEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMonitors status=SUCCESS method=SearchByCategoriesTest.testMonitors()[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testPhones()[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١١ EEST" name="testPhones" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٢ EEST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhones -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٢ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٢ EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPhones status=SUCCESS method=SearchByCategoriesTest.testPhones()[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.SearchByCategoriesTest@3d285d7e]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٢ EEST" name="stopDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:١٣ EEST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.SearchByCategoriesTest -->
+      <class name="tests.PlaceOrderTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.PlaceOrderTest@2cd76f31]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٠ EEST" name="startDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٢ EEST" duration-ms="2165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanPlaceOrder()[pri:0, instance:tests.PlaceOrderTest@2cd76f31]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٢ EEST" name="userCanPlaceOrder" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٧ EEST" duration-ms="5073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanPlaceOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.PlaceOrderTest@2cd76f31]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٧ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٧ EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanPlaceOrder status=SUCCESS method=PlaceOrderTest.userCanPlaceOrder()[pri:0, instance:tests.PlaceOrderTest@2cd76f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.PlaceOrderTest@2cd76f31]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٧ EEST" name="stopDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٢٧ EEST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.PlaceOrderTest -->
+      <class name="tests.AboutUsTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.AboutUsTest@49438269]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٢ EEST" name="startDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٤ EEST" duration-ms="2130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanPlayVideo()[pri:0, instance:tests.AboutUsTest@49438269]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٤ EEST" name="userCanPlayVideo" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٤ EEST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanPlayVideo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AboutUsTest@49438269]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٤ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٤ EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanPlayVideo status=SUCCESS method=AboutUsTest.userCanPlayVideo()[pri:0, instance:tests.AboutUsTest@49438269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.AboutUsTest@49438269]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٤ EEST" name="stopDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٣٥ EEST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.AboutUsTest -->
+      <class name="tests.LogInTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.LogInTest@302552ec]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٠ EEST" name="startDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٢ EEST" duration-ms="2100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanLoginSuccessfully()[pri:1, instance:tests.LogInTest@302552ec]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٢ EEST" name="userCanLoginSuccessfully" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" duration-ms="2743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLoginSuccessfully -->
+        <test-method signature="testSliderFunctionalityAfterLogin()[pri:2, instance:tests.LogInTest@302552ec]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" name="testSliderFunctionalityAfterLogin" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSliderFunctionalityAfterLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LogInTest@302552ec]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanLoginSuccessfully status=SUCCESS method=LogInTest.userCanLoginSuccessfully()[pri:1, instance:tests.LogInTest@302552ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.LogInTest@302552ec]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" name="stopDriver" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LogInTest@302552ec]" started-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" name="tearDown" finished-at="٢٠٢٦-٠٥-١٩T٢٣:٣٩:٠٥ EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSliderFunctionalityAfterLogin status=SUCCESS method=LogInTest.testSliderFunctionalityAfterLogin()[pri:2, instance:tests.LogInTest@302552ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogInTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- demoplaze Regression Suite -->
+</testng-results>
